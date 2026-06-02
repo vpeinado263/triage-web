@@ -7,7 +7,7 @@
     <title>Triage-Web</title>
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <h1>¿Por que no me Atienden?</h1>
         <h2>¿Por qué atienden primero a otras personas?</h2>
         <img
@@ -17,23 +17,25 @@
         <h2>En salud no siempre se sigue el orden de llegada.</h2>   
     </header>
     <main>
-        <h2>¿Qué evalúa el sistema de triage?</h2>
-        <ul>
-            <li>Estado de conciencia del paciente.</li>
-            <li>Dificultad respiratoria.</li>
-            <li>Dolor intenso.</li>
-            <li>Signos vitales alterados.</li>
-            <li>Riesgo inmediato para la vida.</li>
-        </ul>
-        <p>El sistema de TRIAGE clasifica a los pacientes según la gravedad
-            de su situación clínica para asegurar que quienes tienen riesgo
-            de vida reciban atención inmediata.</p>
-        <p>Una persona que llegó después puede ser atendida antes si su
-            estado de salud representa una emergencia.</p>
-            <h2>Autoevaluación educativa</h2>
+        <section id="triage">
+            <h2>¿Qué evalúa el sistema de triage?</h2>
+            <ul>
+                <li>Estado de conciencia del paciente.</li>
+                <li>Dificultad respiratoria.</li>
+                <li>Dolor intenso.</li>
+                <li>Signos vitales alterados.</li>
+                <li>Riesgo inmediato para la vida.</li>
+            </ul>
+            <p>El sistema de TRIAGE clasifica a los pacientes según la gravedad
+                de su situación clínica para asegurar que quienes tienen riesgo
+                de vida reciban atención inmediata.</p>
+            <p>Una persona que llegó después puede ser atendida antes si su
+                estado de salud representa una emergencia.</p>
+        </section>
 
+        <section id="formulario">
+            <h2>Autoevaluación TRIAGE</h2>
             <form>
-            
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre">
             
@@ -64,6 +66,7 @@
                 </button>
             
             </form>
+        </section>   
     </main>
 
     <footer>
