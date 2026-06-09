@@ -25,7 +25,7 @@
     </header>
     <main>
         <section id="triage">
-            <h2>¿Qué evalúa el sistema de triage?</h2>
+           <h2>TRIAGE</h2>
             <ul>
                 <li>Estado de conciencia del paciente.</li>
                 <li>Dificultad respiratoria.</li>
@@ -33,12 +33,71 @@
                 <li>Signos vitales alterados.</li>
                 <li>Riesgo inmediato para la vida.</li>
             </ul>
+            <h3>¿Qué evalúa el sistema de triage?</h3>
             <p>El sistema de TRIAGE clasifica a los pacientes según la gravedad
                 de su situación clínica para asegurar que quienes tienen riesgo
                 de vida reciban atención inmediata.</p>
             <p>Una persona que llegó después puede ser atendida antes si su
                 estado de salud representa una emergencia.</p>
         </section>
+
+        <section class="triage-container">
+
+            <div class="triage rojo">
+                <span class="nivel">1</span>
+                <div class="info">
+                    <h3>RESUCITACIÓN</h3>
+                    <p>Atención inmediata</p>
+                </div>
+                <span class="tiempo">INMEDIATO</span>
+            </div>
+        
+            <div class="triage naranja">
+                <span class="nivel">2</span>
+                <div class="info">
+                    <h3>EMERGENCIA</h3>
+                    <p>Riesgo potencial</p>
+                </div>
+                <span class="tiempo">10 - 15 min</span>
+            </div>
+        
+            <div class="triage amarillo">
+                <span class="nivel">3</span>
+                <div class="info">
+                    <h3>URGENCIA</h3>
+                    <p>Necesita atención médica</p>
+                </div>
+                <span class="tiempo">60 min</span>
+            </div>
+        
+            <div class="triage verde">
+                <span class="nivel">4</span>
+                <div class="info">
+                    <h3>URGENCIA MENOR</h3>
+                    <p>Lesiones leves</p>
+                </div>
+                <span class="tiempo">2 horas</span>
+            </div>
+        
+            <div class="triage azul">
+                <span class="nivel">5</span>
+                <div class="info">
+                    <h3>SIN URGENCIA</h3>
+                    <p>Consulta médica</p>
+                </div>
+                <span class="tiempo">4 horas</span>
+            </div>
+        
+            <div class="triage negro">
+                <span class="nivel">⚫</span>
+                <div class="info">
+                    <h3>FALLECIDO</h3>
+                    <p>Sin signos vitales</p>
+                </div>
+                <span class="tiempo">—</span>
+            </div>
+        
+        </section> 
 
         <section id="formulario">
             <h2>Autoevaluación TRIAGE</h2>
