@@ -9,6 +9,7 @@
     <title>Triage-Web</title>
 </head>
 <body>
+    <!-- =========================ENCABEZADO PRINCIPAL========================== -->
     <header id="inicio">
         <figcaption>
             <h1>¿Por que no me Atienden?</h1>
@@ -23,7 +24,9 @@
             <h3>En salud no siempre se sigue el orden de llegada.</h3>
         </figure>    
     </header>
+    <!-- =========================CONTENIDO PRINCIPAL========================== -->
     <main>
+        <!-- Sección educativa sobre TRIAGE -->
         <section id="triage">
            <h2>TRIAGE</h2>
             <ul>
@@ -40,65 +43,65 @@
             <p>Una persona que llegó después puede ser atendida antes si su
                 estado de salud representa una emergencia.</p>
         </section>
-
-        <section class="triage-container">
-
-            <div class="triage rojo">
-                <span class="nivel">1</span>
-                <div class="info">
-                    <h3>RESUCITACIÓN</h3>
-                    <p>Atención inmediata</p>
+        <!-- Niveles de TRIAGE -->
+        <section id="clasificacion">
+            <div class="triage-container">
+                <div class="triage rojo">
+                    <span class="nivel">1</span>
+                    <div class="info">
+                        <h3>RESUCITACIÓN</h3>
+                        <p>Atención inmediata</p>
+                    </div>
+                    <span class="tiempo">INMEDIATO</span>
                 </div>
-                <span class="tiempo">INMEDIATO</span>
-            </div>
-        
-            <div class="triage naranja">
-                <span class="nivel">2</span>
-                <div class="info">
-                    <h3>EMERGENCIA</h3>
-                    <p>Riesgo potencial</p>
+            
+                <div class="triage naranja">
+                    <span class="nivel">2</span>
+                    <div class="info">
+                        <h3>EMERGENCIA</h3>
+                        <p>Riesgo potencial</p>
+                    </div>
+                    <span class="tiempo">10 - 15 min</span>
                 </div>
-                <span class="tiempo">10 - 15 min</span>
-            </div>
-        
-            <div class="triage amarillo">
-                <span class="nivel">3</span>
-                <div class="info">
-                    <h3>URGENCIA</h3>
-                    <p>Necesita atención médica</p>
+            
+                <div class="triage amarillo">
+                    <span class="nivel">3</span>
+                    <div class="info">
+                        <h3>URGENCIA</h3>
+                        <p>Necesita atención médica</p>
+                    </div>
+                    <span class="tiempo">60 min</span>
                 </div>
-                <span class="tiempo">60 min</span>
-            </div>
-        
-            <div class="triage verde">
-                <span class="nivel">4</span>
-                <div class="info">
-                    <h3>URGENCIA MENOR</h3>
-                    <p>Lesiones leves</p>
+            
+                <div class="triage verde">
+                    <span class="nivel">4</span>
+                    <div class="info">
+                        <h3>URGENCIA MENOR</h3>
+                        <p>Lesiones leves</p>
+                    </div>
+                    <span class="tiempo">2 horas</span>
                 </div>
-                <span class="tiempo">2 horas</span>
-            </div>
-        
-            <div class="triage azul">
-                <span class="nivel">5</span>
-                <div class="info">
-                    <h3>SIN URGENCIA</h3>
-                    <p>Consulta médica</p>
+            
+                <div class="triage azul">
+                    <span class="nivel">5</span>
+                    <div class="info">
+                        <h3>SIN URGENCIA</h3>
+                        <p>Consulta médica</p>
+                    </div>
+                    <span class="tiempo">4 horas</span>
                 </div>
-                <span class="tiempo">4 horas</span>
-            </div>
-        
-            <div class="triage negro">
-                <span class="nivel">⚫</span>
-                <div class="info">
-                    <h3>FALLECIDO</h3>
-                    <p>Sin signos vitales</p>
+            
+                <div class="triage negro">
+                    <span class="nivel">⚫</span>
+                    <div class="info">
+                        <h3>FALLECIDO</h3>
+                        <p>Sin signos vitales</p>
+                    </div>
+                    <span class="tiempo">—</span>
                 </div>
-                <span class="tiempo">—</span>
             </div>
-        
         </section> 
-
+        <!-- Formulario -->
         <section id="formulario">
             <h2>Autoevaluación TRIAGE</h2>
             <form>
@@ -134,9 +137,8 @@
             </form>
         </section>   
     </main>
-
     <hr>
-
+    <!-- =========================PIE DE PÁGINA========================== -->
     <footer>
         <p>&copy; 2026 - Triage Educativo</p>
       
@@ -150,7 +152,8 @@
         <br>
         <nav>
             <a href="#inicio">Inicio</a> 
-            <a href="#triage">¿Qué es el Triage?</a> 
+            <a href="#triage">¿Qué es el Triage?</a>
+            <a href="#clasificacion">Clasificación Triage</a>
             <a href="#formulario">Formulario</a>
         </nav>
     </footer>
