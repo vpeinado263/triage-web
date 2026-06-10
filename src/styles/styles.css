@@ -34,3 +34,36 @@ a:hover {
     text-decoration: underline; 
     color: #a30000;
 }
+
+/* ==========================ENCABEZADO========================== */
+header {
+    text-align: center;
+}
+ /* Barra de navegación */
+nav{
+    display: flex;
+    gap: 1.5rem;
+    background-color: #bdd5c4;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 1rem;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+/* Imagen de Portada */
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60rem;
+    margin: 3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    overflow: hidden; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+figure:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
