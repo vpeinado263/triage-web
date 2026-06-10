@@ -138,3 +138,11 @@ figure:hover {
     border-radius: 2rem;
 }
 
+/* Colores Triage */
+.rojo   { background: linear-gradient(135deg, #a30000, #ff2d2d); }
+.naranja{ background: linear-gradient(135deg, #d35400, #ff8c00); }
+.amarillo{ background: linear-gradient(135deg, #c9a000, #ffd500); color: #222; }
+.verde  { background: linear-gradient(135deg, #0f6d2a, #24b34c); }
+.azul   { background: linear-gradient(135deg, #003d99, #0066ff); }
+.negro  { background: linear-gradient(135deg, #000000, #333333); }
+
