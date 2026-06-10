@@ -146,3 +146,36 @@ figure:hover {
 .azul   { background: linear-gradient(135deg, #003d99, #0066ff); }
 .negro  { background: linear-gradient(135deg, #000000, #333333); }
 
+/* Formulario */
+#formulario{
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(20px);
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#formulario label{
+    font-weight: bold;
+    color: #222d45;
+}
+
+.card-button {
+    
+    padding: 1rem;
+    cursor: pointer; 
+    line-height: 0;
+    transition: background-color 0.3s, color 0.3s; 
+    font-weight: bold; 
+  
+    text-transform: uppercase;    
+}
+.card-button:hover{
+    color: #980000;
+}
